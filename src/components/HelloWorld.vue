@@ -34,7 +34,8 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+    image: require('../assets/red.jpg')
   }
 }
 </script>
